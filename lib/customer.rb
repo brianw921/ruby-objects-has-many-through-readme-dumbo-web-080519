@@ -1,11 +1,12 @@
 class Customer
   @@all = []
 
-  def initialize(name)
+  def initialize(name,age)
     @name = name
+    @age = age
   end
 
   def self.all
-    @@all 
+    @@all
   end
 end
